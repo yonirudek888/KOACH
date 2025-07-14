@@ -191,8 +191,7 @@ export default function MenuBuilder() {
     try {
       const createdMenu = await SavedMenu.create({
         name: menuName,
-        menu_data: JSON.stringify(meals),
-        user_id: user.id,
+        items: JSON.stringify(meals)
       });
 
       if (!createdMenu || !createdMenu.id) {

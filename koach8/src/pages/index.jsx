@@ -105,7 +105,7 @@ function PagesContent() {
                 
                 <Route path="/MenuBuilder" element={<MenuBuilder />} />
                 
-                <Route path="/MyMenus" element={<MyMenus />} />
+                <Route path="/mymenus" element={<MyMenus />} />
                 
                 <Route path="/ViewMenu" element={<ViewMenu />} />
                 
